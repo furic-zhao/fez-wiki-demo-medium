@@ -1,0 +1,71 @@
+{
+  "name": "demo-medium",
+  "description": "FEZ进阶项目实战",
+  "main": "",
+  "authors": [
+    "furic <furic@qq.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/furic-zhao/fez",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.12.4",
+    "bootstrap": "3.3.7",
+    "font-awesome": "4.7.0",
+    "nprogress": "0.2.0",
+    "pnotify": "3.0.0",
+    "echarts": "3.3.2",
+    "datatables.net": "1.10.13",
+    "datatables.net-bs": "1.10.13",
+    "datatables.net-responsive": "2.1.1",
+    "datatables.net-responsive-bs": "2.1.1",
+    "moment": "2.17.1",
+    "datatables.net-fixedcolumns": "3.2.2",
+    "datatables.net-fixedcolumns-bs": "3.2.2",
+    "datatables.net-fixedheader": "3.1.2",
+    "datatables.net-fixedheader-bs": "3.1.2"
+  },
+  "overrides": {
+    "echarts": {
+      "main": [
+        "dist/echarts.js"
+      ]
+    },
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js",
+        "./dist/fonts/**.*"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.css",
+        "fonts/FontAwesome.otf",
+        "fonts/fontawesome-webfont.eot",
+        "fonts/fontawesome-webfont.svg",
+        "fonts/fontawesome-webfont.ttf",
+        "fonts/fontawesome-webfont.woff",
+        "fonts/fontawesome-webfont.woff2"
+      ]
+    },
+    "pnotify": {
+      "main": [
+        "dist/pnotify.js",
+        "dist/pnotify.css"
+      ]
+    },
+    "moment": {
+      "main": [
+        "moment.js",
+        "locale/zh-cn.js"
+      ]
+    }
+  }
+}

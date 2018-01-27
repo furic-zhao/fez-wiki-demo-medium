@@ -1,0 +1,20 @@
+{
+    "name": "demo-medium",
+    "version": "",
+    "description": "",
+    "keywords": "",
+    "homepage": "",
+    "license": "MIT",
+    "author": "",
+    "main": "",
+    "scripts": {},
+    "directories": {},
+    "dependencies": {},
+    "devDependencies": {},
+    "browserify": {
+        "transform": [
+            "browserify-shim"
+        ]
+    },
+    "browserify-shim": "./shim.js"
+}
